@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add To Bag </title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add To Bag</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="product-imgs">
+        <div class="product-views">
+          <img src="./public/t-shirt.jpg" alt="white t-shirt" height="200" />
+          <img src="./public/t-shirt.jpg" alt="white t-shirt" height="200" />
+          <img src="./public/t-shirt.jpg" alt="white t-shirt" height="200" />
+        </div>
+        <div class="large-product">
+          <img src="./public/t-shirt.jpg" alt="white t-shirt" height="500" />
+        </div>
+      </div>
+      <div class="product-info">
+        <h2 id="brand">Brand</h2>
+        <h1 id="name">White T-Shirt</h1>
+        <h3 id="description">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam ut
+          numquam in adipisci error sunt sequi et! Nostrum adipisci quidem
+          molestiae illum at aspernatur quibusdam in numquam aliquid maxime.
+          Iste?
+        </h3>
+        <div class="price">
+          <span id="price">$20.00</span>
+          <span id="discount">40% off</span>
+          <p id="org-price">$50.00</p>
+        </div>
+        <p>Size</p>
+        <div class="sizes">
+          <div class="size">sm</div>
+          <div class="size">md</div>
+          <div class="size">lg</div>
+          <div class="size">xl</div>
+        </div>
+
+        <button type="button">Add To Bag</button>
+      </div>
+    </div>
+  </body>
 </html>
